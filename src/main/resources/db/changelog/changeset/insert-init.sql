@@ -1,0 +1,14 @@
+INSERT INTO news_topic(name) VALUES('Помощь юр.лицам');
+INSERT INTO news_topic(name) VALUES('Помощь физ.лицам');
+INSERT INTO news_topic(name) VALUES('О нас');
+INSERT INTO news_topic(name) VALUES('Обновление сервиса');
+INSERT INTO news_source(name) VALUES('irbis.plus');
+INSERT INTO news_source(name) VALUES('praktika.irbis.plus');
+INSERT INTO news(source_id, topic_id, content) VALUES(1, 1, 'Обновления законодательства в 2022 году.');
+INSERT INTO news(source_id, topic_id, content) VALUES(1, 1, 'Обновления законодательства в 2023 г.');
+INSERT INTO news(source_id, topic_id, content) VALUES(1, 2, 'Рассказываем о том, как обезопасить себя от мошенников');
+INSERT INTO news(source_id, topic_id, content) VALUES(1, 3, 'Рассказываем о том, как отдыхают наши работники');
+INSERT INTO news(source_id, topic_id, content) VALUES(1, 3, 'Знакомим с нашими клиентами. Часть 1');
+INSERT INTO news(source_id, topic_id, content) VALUES(1, 3, 'Знакомим с нашими клиентами. Часть 2');
+INSERT INTO news(source_id, topic_id, content) VALUES(2, 4, 'Знакомство с сервисом');
+INSERT INTO news(source_id, topic_id, content) VALUES(2, 4, 'Нововведение во вкладке "Суды"');

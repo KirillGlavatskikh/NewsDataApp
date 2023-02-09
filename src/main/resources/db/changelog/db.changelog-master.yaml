@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/create-table-news-source.sql
+  - include:
+      file: db/changelog/changeset/create-table-news-topic.sql
+  - include:
+      file: db/changelog/changeset/create-table-news.sql
+  - include:
+      file: db/changelog/changeset/insert-init.sql
